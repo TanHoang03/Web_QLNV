@@ -11,7 +11,7 @@ namespace WebApplication1
 {
 
 
-    public partial class ThemTinTuc
+    public partial class SuaBanTin
     {
 
         /// <summary>
@@ -49,6 +49,24 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FileUpload FHinh;
+
+        /// <summary>
+        /// oldImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image oldImg;
+
+        /// <summary>
+        /// lbOldImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbOldImg;
 
         /// <summary>
         /// txtNgayDang control.

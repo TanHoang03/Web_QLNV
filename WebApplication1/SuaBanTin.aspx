@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ql.Master" AutoEventWireup="true" CodeBehind="ThemTinTuc.aspx.cs" Inherits="WebApplication1.ThemTinTuc" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ql.Master" AutoEventWireup="true" CodeBehind="SuaBanTin.aspx.cs" Inherits="WebApplication1.SuaBanTin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<script src="Scripts/ckeditor/ckeditor.js"></script>
+    <script src="Scripts/ckeditor/ckeditor.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="noiDung" runat="server">
-    <h2 class="text-center">Thêm tin tức</h2>
+    <h2 class="text-center">Sửa tin tức</h2>
     <div class="row mt-3 mb-2 ">
         <div class="col-md-2">Tiêu đề</div>
         <div class="col-md-10">
@@ -26,6 +26,9 @@
         <div class="col-md-2">Hình đại diện</div>
         <div class="col-md-10">
         <asp:FileUpload ID="FHinh" runat="server" />
+            <br>
+            <asp:Image ID="oldImg" runat="server" Width="100px" />
+            <asp:Label ID="lbOldImg" Visible="true" runat="server" Text="Label"></asp:Label>
         </div>
     </div>
     <div class="row mb-2">
@@ -54,4 +57,5 @@
         </div>
     </div>
     <asp:SqlDataSource ID="dsTheLoai" runat="server" ConnectionString="<%$ ConnectionStrings:QLNhanVienConnectionString %>" SelectCommand="SELECT * FROM [TheLoai]"></asp:SqlDataSource>
+
 </asp:Content>

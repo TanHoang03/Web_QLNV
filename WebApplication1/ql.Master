@@ -41,7 +41,7 @@
             </asp:ContentPlaceHolder>
         </div>
         <div class="text-center pt-3 pb-3 bg-dark text-danger">
-            Người thiết kế :Nguyễn Tấn Hoàng ___2221160001
+            Người thiết kế : Phạm Huỳnh Tấn PHúc - MSSV: 2221160018
         </div>
     </form>
     <script src="Scripts/jquery-3.0.0.js"></script>

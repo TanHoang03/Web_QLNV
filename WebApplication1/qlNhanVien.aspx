@@ -16,6 +16,7 @@
         </DeleteParameters>
         <InsertParameters>
             <asp:Parameter Name="HoNV" Type="String" />
+            <%--<asp:Parameter Name="TenNV" Type="String" />--%>
             <asp:Parameter Name="TenNV" Type="String" />
             <asp:Parameter Name="Phai" Type="Boolean" />
             <asp:Parameter DbType="Date" Name="NgaySinh" />
