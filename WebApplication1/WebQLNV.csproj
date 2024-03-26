@@ -432,7 +432,8 @@
     <Content Include="SuaBanTin.aspx" />
     <Content Include="ThemNhanVien.aspx" />
     <Content Include="ThemTinTuc.aspx" />
-    <Content Include="Upload\genz.jpg" />
+    <Content Include="Upload\mai.jpg" />
+    <Content Include="Upload\mai2.jpg" />
     <Content Include="Upload\no_image.png" />
     <Content Include="Web.config" />
     <Content Include="Scripts\umd\popper.min.js.map" />
@@ -512,7 +513,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.0.0.min.map" />
-    <Content Include="Upload\anh1.jpg" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
